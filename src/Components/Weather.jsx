@@ -23,6 +23,7 @@ function Weather() {
 	};
 
 	const time = new Date(localtime).toDateString();
+
 	return (
 		<>
 			<div>{time}</div>
